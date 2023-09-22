@@ -1,6 +1,9 @@
 # DotFiles
 Configuration files I share to make your life easier. Use them at your own risk. I recomend only taking the interesting features you like little by little so you dont break your system.
 
+![Cover Articulos LinkedIn](https://github.com/rgsaura/DotFiles/assets/16281075/e64c10af-ef09-4b48-9f0f-7db3eff5a40d)
+
+
 ## Unix
 
 - zsh - This shell allows for extreme customization with many plugins that made the use of the terminal a blesing.
