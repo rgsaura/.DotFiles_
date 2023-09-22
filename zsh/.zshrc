@@ -161,4 +161,3 @@ alias vim=nvim
 
 
 
-export OPENAI_API_KEY=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
