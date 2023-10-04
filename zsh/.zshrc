@@ -57,7 +57,7 @@ zstyle ':completion:*:kill:*' command 'ps -u $USER -o pid,%cpu,tty,cputime,cmd'
 
 # Manual configuration
 
-PATH=/Users/$HOME/.local/share/fig/plugins/git-open:/opt/homebrew/bin:/opt/homebrew/sbin:/Library/Frameworks/Python.framework/Versions/3.10/bin:/Library/Frameworks/Python.framework/Versions/3.9/bin:/Library/Frameworks/Python.framework/Versions/2.7/bin:/Library/Frameworks/Python.framework/Versions/3.11/bin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/VMware Fusion.app/Contents/Public:/Library/TeX/texbin:/usr/local/share/dotnet:/opt/X11/bin:~/.dotnet/tools:/Library/Apple/usr/bin://Applications/Topaz Photo AI.app/Contents/Resources/bin:/Applications/Wireshark.app/Contents/MacOS:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/Users/$HOME/.cargo/bin:/Users/$HOME/.fig/bin:/Users/$HOME/.local/bin:/usr/local/bin:/Users/$HOME/.local/share/fig/plugins/git-flow:/Users/$HOME/.local/share/fig/plugins/git-extra-commands_unixorn/bin:/Users/$HOME/.local/share/fig/plugins/git-extra-commands_unixorn/bin:/Users/$HOME/.local/share/fig/plugins/git-flow
+PATH=$HOME/.local/share/fig/plugins/git-open:/opt/homebrew/bin:/opt/homebrew/sbin:/Library/Frameworks/Python.framework/Versions/3.10/bin:/Library/Frameworks/Python.framework/Versions/3.9/bin:/Library/Frameworks/Python.framework/Versions/2.7/bin:/Library/Frameworks/Python.framework/Versions/3.11/bin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/VMware Fusion.app/Contents/Public:/Library/TeX/texbin:/usr/local/share/dotnet:/opt/X11/bin:~/.dotnet/tools:/Library/Apple/usr/bin://Applications/Topaz Photo AI.app/Contents/Resources/bin:/Applications/Wireshark.app/Contents/MacOS:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:$HOME/.cargo/bin:$HOME/.fig/bin:$HOME/.local/bin:/usr/local/bin:$HOME/.local/share/fig/plugins/git-flow:$HOME/.local/share/fig/plugins/git-extra-commands_unixorn/bin:$HOME/.local/share/fig/plugins/git-extra-commands_unixorn/bin:$HOME/.local/share/fig/plugins/git-flow
 
 # Custom Aliases
 
@@ -73,10 +73,10 @@ alias catnl='batcat'
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
 # Plugins
-source /Users/$HOME/.config/zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source $HOME/.config/zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 #source /usr/share/zsh-autocomplete/zsh-autocomplete.plugin.zsh
-source /Users/$HOME/.config/zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
-source /Users/$HOME/.config/zsh/zsh-sudo/sudo.plugin.zsh
+source $HOME/.config/zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
+source $HOME/.config/zsh/zsh-sudo/sudo.plugin.zsh
 
 # Functions
 function mkt(){

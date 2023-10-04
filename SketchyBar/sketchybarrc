@@ -1,6 +1,6 @@
 #!/bin/bash
 
-CONFIG_DIR="/Users/rodrigogarcia/.config/sketchybar"
+CONFIG_DIR="/Users/$HOME/.config/sketchybar"
 
 source "$CONFIG_DIR/colors.sh" # Loads all defined colors
 source "$CONFIG_DIR/icons.sh" # Loads all defined icons
@@ -71,9 +71,9 @@ sketchybar --default "${defaults[@]}"
 # Left
 #source "$ITEM_DIR/apple.sh"
 source "$ITEM_DIR/spaces.sh"
-source "$ITEM_DIR/yabai.sh"
+# source "$ITEM_DIR/yabai.sh"
 source "$ITEM_DIR/front_app.sh"
-source "$ITEM_DIR/front_app.sh"
+
 
 # Center
 source "$ITEM_DIR/media.sh"
@@ -86,7 +86,7 @@ source "$ITEM_DIR/media.sh"
 #source "$ITEM_DIR/github.sh"
 #source "$ITEM_DIR/battery.sh"
 #source "$ITEM_DIR/volume.sh"
-source "$ITEM_DIR/network.sh"
+# source "$ITEM_DIR/network.sh"
 source "$ITEM_DIR/disk.sh"
 #source "$ITEM_DIR/cpu.sh"
 
